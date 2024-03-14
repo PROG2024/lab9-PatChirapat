@@ -23,6 +23,7 @@ class Counter:
     def __str__(self):
         return f"{self.__count}"
 
+    @property
     def count(self):
         return self.__count
 
